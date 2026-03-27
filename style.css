@@ -1,0 +1,47 @@
+body { 
+    font-family: Arial, sans-serif; 
+    background-color: #f4f4f9; 
+    padding: 20px; 
+}
+
+table { 
+    width: 100%; 
+    border-collapse: collapse; 
+    margin-top: 20px; 
+    background: white; 
+}
+
+th, td { 
+    border: 1px solid #ddd; 
+    padding: 10px; 
+    text-align: left; 
+}
+
+th { 
+    background-color: #333; 
+    color: white; 
+}
+
+img { 
+    border-radius: 5px; 
+}
+
+.btn { 
+    padding: 5px 10px; 
+    text-decoration: none; 
+    color: white; 
+    border-radius: 3px; 
+    background: #007bff; 
+    
+    /* Estas dos líneas son la magia: */
+    display: inline-block; 
+    margin: 4px; 
+}
+
+.btn-peligro { 
+    background: #dc3545; 
+}
+
+.btn-exito { 
+    background: #28a745; 
+}
